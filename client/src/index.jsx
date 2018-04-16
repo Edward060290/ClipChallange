@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import FuzzySearch from './components/Search.jsx';
-
+import Transaction from './components/Transaction.jsx'
 
 class App extends React.Component {
   constructor(props) {

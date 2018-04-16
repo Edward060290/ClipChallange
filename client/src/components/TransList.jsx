@@ -1,12 +1,10 @@
 import React from 'react'
 import Transaction from './Transaction.jsx'
 
-class TransList extends React.Component {
-    constructor(props){
-      super(props);
-      this.state ={
-        Tansaction: [];
-      }
-      
-    }
-}
+const TransList = (props) => (
+  <div className="Transactions-List">
+    {props.list.map((item, index) => <Transactions item={item} key{index} />}
+  </div>
+)
+
+export default TransList;
