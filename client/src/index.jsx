@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import FuzzySearch from './components/Search.jsx';
+import FuzzySearch from './components/FuzzySearch.jsx';
 import Transaction from './components/Transaction.jsx'
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      input: ''
+      list: ''
     }
   }
 
@@ -15,7 +15,7 @@ class App extends React.Component {
     return (
     <div>
       <h1>Fuzzy Search Challange</h1>
-      <Search input ={this.state.input}/>
+      <FuzzySearch input ={this.state.input}/>
     </div>
   )
   }
