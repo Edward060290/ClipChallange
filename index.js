@@ -6,5 +6,5 @@ app.use(express.static(__dirname + '/../client/dist'));
 
 //run in browser on localhost:3000
 app.listen(3000, function() {
-  console.log('Server started and listening on port 3000');
+  console.log('Listening on port 3000');
 });
