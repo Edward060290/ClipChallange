@@ -1,0 +1,19 @@
+{
+  "name": "clipchallange",
+  "version": "1.0.0",
+  "description": "FuzzySearch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edward060290/ClipChallange.git"
+  },
+  "author": "Edward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edward060290/ClipChallange/issues"
+  },
+  "homepage": "https://github.com/Edward060290/ClipChallange#readme"
+}
