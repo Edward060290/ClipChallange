@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 class FuzzySearch extends React.Component {
   constructor(props){
     super(props);
@@ -26,7 +27,7 @@ class FuzzySearch extends React.Component {
   handleCardInfo(e) {
   this.setState({
     card_last_four: e.target.value})
-  }
+}
 
   render() {
     return (
@@ -38,9 +39,9 @@ class FuzzySearch extends React.Component {
            value={this.state.last}
            onChange={this.handleAmount}
            />
-         <button>
+         <button
            type="button"
-           onSubmit={this.handleSubmit}
+           onSubmit={this.handleSubmit}>Search
          </button>
        </div>
       </div>

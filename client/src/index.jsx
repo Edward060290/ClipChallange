@@ -14,11 +14,14 @@ class App extends React.Component {
   render () {
     return (
     <div>
-      <h1>Fuzzy Search Challange</h1>
-      <FuzzySearch input ={this.state.input}/>
+      <h1>Fuzzy Search</h1>
+      <FuzzySearch getTransactions={this.getTransactions}/>
+      
     </div>
   )
   }
 }
+
+
 
 ReactDOM.render(<App />, document.getElementById('app'));

@@ -3,7 +3,7 @@ import Transaction from './Transaction.jsx'
 
 const TransList = (props) => (
   <div className="Transactions-List">
-    {props.list.map((item, index) => <Transactions item={item} key{index} />}
+    {props.list.map((transactions, index) => <Transactions transactions={transactions} key={index} />)}
   </div>
 )
 
