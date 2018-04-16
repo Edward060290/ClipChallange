@@ -4,7 +4,8 @@
   "description": "FuzzySearch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "react-dev": "webpack -d --wacth",
+    "nodemon": "index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Edward060290/ClipChallange/issues"
   },
-  "homepage": "https://github.com/Edward060290/ClipChallange#readme"
+  "homepage": "https://github.com/Edward060290/ClipChallange#readme",
+  "dependencies": {
+    "react-dev": "0.0.1"
+  }
 }
